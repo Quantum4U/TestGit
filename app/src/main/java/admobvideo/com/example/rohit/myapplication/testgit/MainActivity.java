@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import admobvideo.com.example.rohit.myapplication.testgit.R;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -25,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action>>>>>>>>>>>>>>", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Replace with your own action>>>>>>>>>>>>>> From Rakesh", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
